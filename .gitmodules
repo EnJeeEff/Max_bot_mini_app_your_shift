@@ -1,0 +1,9 @@
+[submodule "CurrentMiniAppBackend"]
+	path = CurrentMiniAppBackend
+	url = https://github.com/Neyromark/Max_bot_mini_app_your_shift
+[submodule "CurrentChatBot"]
+	path = CurrentChatBot
+	url = https://github.com/Neyromark/Max_bot_mini_app_your_shift
+[submodule "bestmaxbot279.github.io"]
+	path = bestmaxbot279.github.io
+	url = ./bestmaxbot279.github.io

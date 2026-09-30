@@ -103,9 +103,12 @@
 |---|---|---|
 | Чат-бот MAX | Основной сценарий, короткие действия | Python, maxapi, aiohttp |
 | Мини-приложение MAX | Визуальное планирование | HTML, JavaScript, CSS, MAX Bridge, MAX UI (React) |
+| Реальное время | Обновления задач и объявлений без перезагрузки | WebSockets, aiohttp |
 | База данных | Хранение пользователей, организаций, задач, объявлений | SQLAlchemy (SQLite/PostgreSQL) |
 | Очередь рассылки | Асинхронная отправка объявлений | Внутренняя очередь (`mailing.queue`) |
 | Отчёты | Формирование CSV | Python, `reports` |
-| Docker | Воспроизводимый запуск | Docker, Docker Compose |
+| Reverse-proxy | TLS-терминация, маршрутизация, раздача статики | Caddy |
+| Контейнеризация | Воспроизводимый запуск | Docker, Docker Compose |
+| Инфраструктура | Хостинг, БД, объектное хранилище, секреты | Yandex Cloud (Compute, Managed PostgreSQL, Object Storage, Lockbox) |
 
 ### Схема взаимодействия
