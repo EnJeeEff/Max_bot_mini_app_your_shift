@@ -110,5 +110,3 @@
 | Reverse-proxy | TLS-терминация, маршрутизация, раздача статики | Caddy |
 | Контейнеризация | Воспроизводимый запуск | Docker, Docker Compose |
 | Инфраструктура | Хостинг, БД, объектное хранилище, секреты | Yandex Cloud (Compute, Managed PostgreSQL, Object Storage, Lockbox) |
-
-### Схема взаимодействия
